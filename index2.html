@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <h1>Student Regisrtation Form</h1>
+        <h1>Student Registration Form</h1>
     </header>
 
     <main>
@@ -27,12 +27,29 @@
             <label for="pass">Password:</label>
             <input type="password" placeholder="Enter your password" id="pass" name="pass"><br><br>
             
+            <!-- 🔹 from AI
+              Fieldset holo ekta container tag, ja ekshathe kichu related form elements ke group korte bebohar kora hoy/ (user bujhe kon input gulo ekoi bishoy er sathe related).
+              Legend holo oi group-er title (shironam), ja fieldset-er vitore boshe. 
+
+            <fieldset>
+                <legend>Gender</legend>
+
+                 <input type="radio" id="male" name="gender" value="male">
+                 <label for="male">Male</label>
+
+                 <input type="radio" id="female" name="gender" value="female">
+                 <label for="female">Female</label>
+            </fieldset> -->
+
+            <div>
             <label for="gender">Gender:</label>
             <input type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label>
-            <input type="radio" id="famale" name="gender" value="famale">
-            <label for="famale">famale</label><br><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label><br><br>
+            </div>
 
+            <div>
             <label for="dept">Department:</label>
             <input type="radio" id="cse" name="dept" value="cse">
             <label for="cse">CSE</label>
@@ -44,7 +61,9 @@
             <label for="civil">Civil</label>
             <input type="radio" id="mech" name="dept" value="mech">
             <label for="mech">Mech</label><br><br>
+            </div>
 
+            <div>
             <label for="course">Course</label>
             <select id="course" name="course">
                 <option value="option" selected>........................Select Current Course's........................</option>
@@ -53,6 +72,7 @@
                 <option value="mba">MBA</option>
                 <option value="msc">M.Sc</option>
             </select><br><br>
+            </div>
 
             <label for="photo">Student photo:</label>
             <input type="file" id="photo" name="photo"><br><br>
@@ -66,7 +86,8 @@
         </form>
     </main>
 
-    <footer>  
+    <footer> 
+        <!-- Footer placeholder --> 
     </footer>
 </body>
 </html>
