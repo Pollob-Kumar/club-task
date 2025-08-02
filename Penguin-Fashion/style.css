@@ -1,0 +1,177 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Navbar */
+header {
+    background-color: #83b9a350;
+    padding: 20px 50px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 150px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Main Section 1 */
+.main-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0f7fa;
+    padding: 60px 80px;
+    flex-wrap: wrap;
+}
+
+.main-text {
+    flex: 1;
+    max-width: 500px;
+}
+
+.main-text h2 {
+    font-size: 48px;
+    color: #000;
+}
+
+.main-text h2 span {
+    color: #FF589B;
+}
+
+.main-text p {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.main-text .btn {
+    padding: 12px 24px;
+    background-color: #FF589B;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-img img {
+    width: 400px;
+    max-width: 100%;
+}
+
+
+/* Main Section 2 - Products */
+.main-two {
+    padding: 60px 80px;
+    background-color: #fff;
+}
+.mt-one, .mt-two {
+    margin-bottom: 60px;
+}
+.woman-jacket h2,
+.man-jacket h2 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.pd1 {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+.pd1:hover {
+    transform: translateY(-5px);
+}
+.pd1 img {
+    width: 100%;
+    height: auto;
+}
+.pd1 h4 {
+    margin: 15px 0 10px;
+    font-size: 18px;
+}
+.pd1 p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+.pd1 h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.pd1 button.btn-1 {
+    padding: 10px 20px;
+    background-color: #FF589B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.woman-jacket .pd1,
+.man-jacket .pd1 {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+
+/* Footer Section */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 60px 80px;
+}
+
+.box-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+.box-item img {
+    width: 50px;
+    flex-shrink: 0;
+}
+
+.box-item .text h4 {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.box-item .text p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+footer img {
+    width: 400px;
+    max-width: 100%;
+    margin-top: 20px;
+}
